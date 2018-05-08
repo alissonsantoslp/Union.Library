@@ -1,0 +1,76 @@
+D:\OneDrive\TDS\RG Log\WebService\Projeto WebService\Union.Library\bin\Debug\Union.Library.dll
+D:\OneDrive\TDS\RG Log\WebService\Projeto WebService\Union.Library\bin\Debug\Union.Library.pdb
+D:\OneDrive\TDS\RG Log\WebService\Projeto WebService\Union.Library\obj\Debug\Union.Library.csprojResolveAssemblyReference.cache
+D:\OneDrive\TDS\RG Log\WebService\Projeto WebService\Union.Library\obj\Debug\Interop.SAPbobsCOM.dll
+D:\OneDrive\TDS\RG Log\WebService\Projeto WebService\Union.Library\obj\Debug\Interop.SAPbouiCOM.dll
+D:\OneDrive\TDS\RG Log\WebService\Projeto WebService\Union.Library\obj\Debug\Union.Library.csproj.ResolveComReference.cache
+D:\OneDrive\TDS\RG Log\WebService\Projeto WebService\Union.Library\obj\Debug\Union.Library.dll
+D:\OneDrive\TDS\RG Log\WebService\Projeto WebService\Union.Library\obj\Debug\Union.Library.pdb
+D:\Google Drive\RGLOG\WebService\Projeto WebService\Union.Library\bin\Debug\Union.Library.dll
+D:\Google Drive\RGLOG\WebService\Projeto WebService\Union.Library\bin\Debug\Union.Library.pdb
+D:\Google Drive\RGLOG\WebService\Projeto WebService\Union.Library\bin\Debug\Interop.SAPbobsCOM.dll
+D:\Google Drive\RGLOG\WebService\Projeto WebService\Union.Library\bin\Debug\Interop.SAPbouiCOM.dll
+D:\Google Drive\RGLOG\WebService\Projeto WebService\Union.Library\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Google Drive\RGLOG\WebService\Projeto WebService\Union.Library\obj\Debug\Interop.SAPbouiCOM.dll
+D:\Google Drive\RGLOG\WebService\Projeto WebService\Union.Library\obj\Debug\Union.Library.csproj.ResolveComReference.cache
+D:\Google Drive\RGLOG\WebService\Projeto WebService\Union.Library\obj\Debug\Union.Library.dll
+D:\Google Drive\RGLOG\WebService\Projeto WebService\Union.Library\obj\Debug\Union.Library.pdb
+D:\Alisson\WebService\Projeto WebService\Union.Library\bin\Debug\Union.Library.dll
+D:\Alisson\WebService\Projeto WebService\Union.Library\bin\Debug\Union.Library.pdb
+D:\Alisson\WebService\Projeto WebService\Union.Library\bin\Debug\Interop.SAPbobsCOM.dll
+D:\Alisson\WebService\Projeto WebService\Union.Library\bin\Debug\Interop.SAPbouiCOM.dll
+D:\Alisson\WebService\Projeto WebService\Union.Library\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Alisson\WebService\Projeto WebService\Union.Library\obj\Debug\Interop.SAPbouiCOM.dll
+D:\Alisson\WebService\Projeto WebService\Union.Library\obj\Debug\Union.Library.csproj.ResolveComReference.cache
+D:\Alisson\WebService\Projeto WebService\Union.Library\obj\Debug\Union.Library.dll
+D:\Alisson\WebService\Projeto WebService\Union.Library\obj\Debug\Union.Library.pdb
+D:\SAP\WebService\Projeto WebService\Union.Library\bin\Debug\Union.Library.dll
+D:\SAP\WebService\Projeto WebService\Union.Library\bin\Debug\Union.Library.pdb
+D:\SAP\WebService\Projeto WebService\Union.Library\bin\Debug\Interop.SAPbobsCOM.dll
+D:\SAP\WebService\Projeto WebService\Union.Library\bin\Debug\Interop.SAPbouiCOM.dll
+D:\SAP\WebService\Projeto WebService\Union.Library\obj\Debug\Interop.SAPbobsCOM.dll
+D:\SAP\WebService\Projeto WebService\Union.Library\obj\Debug\Interop.SAPbouiCOM.dll
+D:\SAP\WebService\Projeto WebService\Union.Library\obj\Debug\Union.Library.csproj.ResolveComReference.cache
+D:\SAP\WebService\Projeto WebService\Union.Library\obj\Debug\Union.Library.dll
+D:\SAP\WebService\Projeto WebService\Union.Library\obj\Debug\Union.Library.pdb
+C:\Users\Admini\Desktop\WebService\Projeto WebService\Union.Library\bin\Debug\Union.Library.dll
+C:\Users\Admini\Desktop\WebService\Projeto WebService\Union.Library\bin\Debug\Union.Library.pdb
+C:\Users\Admini\Desktop\WebService\Projeto WebService\Union.Library\bin\Debug\Interop.SAPbobsCOM.dll
+C:\Users\Admini\Desktop\WebService\Projeto WebService\Union.Library\bin\Debug\Interop.SAPbouiCOM.dll
+C:\Users\Admini\Desktop\WebService\Projeto WebService\Union.Library\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\Admini\Desktop\WebService\Projeto WebService\Union.Library\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\Admini\Desktop\WebService\Projeto WebService\Union.Library\obj\Debug\Union.Library.csproj.ResolveComReference.cache
+C:\Users\Admini\Desktop\WebService\Projeto WebService\Union.Library\obj\Debug\Union.Library.dll
+C:\Users\Admini\Desktop\WebService\Projeto WebService\Union.Library\obj\Debug\Union.Library.pdb
+C:\Users\admin02\Desktop\Union.Library\bin\Debug\Union.Library.dll
+C:\Users\admin02\Desktop\Union.Library\bin\Debug\Union.Library.pdb
+C:\Users\admin02\Desktop\Union.Library\bin\Debug\Interop.SAPbobsCOM.dll
+C:\Users\admin02\Desktop\Union.Library\bin\Debug\Interop.SAPbouiCOM.dll
+C:\Users\admin02\Desktop\Union.Library\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\admin02\Desktop\Union.Library\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\admin02\Desktop\Union.Library\obj\Debug\Union.Library.csproj.ResolveComReference.cache
+C:\Users\admin02\Desktop\Union.Library\obj\Debug\Union.Library.dll
+C:\Users\admin02\Desktop\Union.Library\obj\Debug\Union.Library.pdb
+C:\Users\alisson\Desktop\Union.Library\bin\Debug\Union.Library.dll
+C:\Users\alisson\Desktop\Union.Library\bin\Debug\Union.Library.pdb
+C:\Users\alisson\Desktop\Union.Library\bin\Debug\Interop.SAPbobsCOM.dll
+C:\Users\alisson\Desktop\Union.Library\bin\Debug\Interop.SAPbouiCOM.dll
+C:\Users\alisson\Desktop\Union.Library\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\alisson\Desktop\Union.Library\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\alisson\Desktop\Union.Library\obj\Debug\Union.Library.csproj.ResolveComReference.cache
+C:\Users\alisson\Desktop\Union.Library\obj\Debug\Union.Library.dll
+C:\Users\alisson\Desktop\Union.Library\obj\Debug\Union.Library.pdb
+C:\Users\alisson\Desktop\Union.Library\obj\Debug\Union.Library.csprojResolveAssemblyReference.cache
+D:\Dropbox\MaquinaVirtual\Union.Library\bin\Debug\Union.Library.dll
+D:\Dropbox\MaquinaVirtual\Union.Library\bin\Debug\Union.Library.pdb
+D:\Dropbox\MaquinaVirtual\Union.Library\bin\Debug\Interop.SAPbobsCOM.dll
+D:\Dropbox\MaquinaVirtual\Union.Library\bin\Debug\Interop.SAPbouiCOM.dll
+D:\Dropbox\MaquinaVirtual\Union.Library\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Dropbox\MaquinaVirtual\Union.Library\obj\Debug\Interop.SAPbouiCOM.dll
+D:\Dropbox\MaquinaVirtual\Union.Library\obj\Debug\Union.Library.csproj.ResolveComReference.cache
+D:\Dropbox\MaquinaVirtual\Union.Library\obj\Debug\Union.Library.dll
+D:\Dropbox\MaquinaVirtual\Union.Library\obj\Debug\Union.Library.pdb
+C:\Users\alisson.santos\Desktop\Union.Library\bin\Debug\Union.Library.XML
+C:\Users\alisson.santos\Desktop\Union.Library\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\alisson.santos\Desktop\Union.Library\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\alisson.santos\Desktop\Union.Library\obj\Debug\Union.Library.csproj.ResolveComReference.cache

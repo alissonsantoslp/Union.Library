@@ -1,0 +1,9 @@
+D:\SAP\WebService\Projeto WebService\Union.Library\bin\x86\Debug\Union.Library.dll
+D:\SAP\WebService\Projeto WebService\Union.Library\bin\x86\Debug\Union.Library.pdb
+D:\SAP\WebService\Projeto WebService\Union.Library\bin\x86\Debug\Interop.SAPbobsCOM.dll
+D:\SAP\WebService\Projeto WebService\Union.Library\bin\x86\Debug\Interop.SAPbouiCOM.dll
+D:\SAP\WebService\Projeto WebService\Union.Library\obj\x86\Debug\Interop.SAPbobsCOM.dll
+D:\SAP\WebService\Projeto WebService\Union.Library\obj\x86\Debug\Interop.SAPbouiCOM.dll
+D:\SAP\WebService\Projeto WebService\Union.Library\obj\x86\Debug\Union.Library.csproj.ResolveComReference.cache
+D:\SAP\WebService\Projeto WebService\Union.Library\obj\x86\Debug\Union.Library.dll
+D:\SAP\WebService\Projeto WebService\Union.Library\obj\x86\Debug\Union.Library.pdb

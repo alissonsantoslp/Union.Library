@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.12.30.2" projectFile="C:\Users\alisson.santos\Desktop\Union.Library\Documentação\Documentação Union.Library.shfbproj" started="18/04/2018 09:19:36">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Locating components in the following folder(s):
+    C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Using framework reflection data for &#39;.NET Framework 4.5&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2017.12.30.2
+Copyright &#169; 2006-2017, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\alisson.santos\Desktop\Union.Library\bin\Debug\Union.Library.XML
+Source: C:\Users\alisson.santos\Desktop\Union.Library\bin\Debug\Union.Library.dll
+    Found assembly &#39;C:\Users\alisson.santos\Desktop\Union.Library\bin\Debug\Union.Library.dll&#39;
+
+Copying XML comments files
+    C:\Users\alisson.santos\Desktop\Union.Library\bin\Debug\Union.Library.XML -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Union.Library.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (pt-BR, Portuguese (Brazil))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00,0020
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateRefInfo.proj]
+Build started 18/04/2018 09:19:37.
+Project &quot;C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2017.12.30.2)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 1 namespaces, 7 types, and 53 members
+  Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
+  XslTransform (v2017.12.30.2)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Done Building Project &quot;C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\GenerateRefInfo.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.05
+    Last step completed in 00:00:01,1321
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - TransformManifest.proj]
+Build started 18/04/2018 09:19:39.
+Project &quot;C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+TransformManifest:
+  XslTransform (v2017.12.30.2)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
+  XslTransform (v2017.12.30.2)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2017.12.30.2)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\TransformManifest.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.48
+    Last step completed in 00:00:00,5570
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,0030
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateIntermediateTOC.proj]
+Build started 18/04/2018 09:19:39.
+Project &quot;C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+GenerateIntermediateTOC:
+  XslTransform (v2017.12.30.2)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.14
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,2160
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00,1270
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\sandcastle.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00,0020
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildTopics.proj]
+Build started 18/04/2018 09:19:39.
+Project &quot;C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
+BuildTopics:
+  BuildAssembler (v2017.12.30.2)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [N:Union.Library] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Union.Library.ClassEnum] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Union.Library.ClassEnum.DiasSemana] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Union.Library.ClassEnum.Meses] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Union.Library.connect_BaseSQLServer] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.#ctor(System.String)] Missing &lt;param name=&quot;StringdeConexao&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.ExecutaComando(System.Data.SqlClient.SqlCommand)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.ExecutaComando(System.Data.SqlClient.SqlCommand)] Missing &lt;param name=&quot;Comm&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.ExecutaComando(System.String)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.ExecutaComando(System.String)] Missing &lt;param name=&quot;strQuery&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.ExecutaComandoRetorno(System.String)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.ExecutaComandoRetorno(System.String)] Missing &lt;returns&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.ExecutaComandoRetorno(System.String)] Missing &lt;param name=&quot;strQuery&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.ExecutaSqlComando(System.Data.SqlClient.SqlCommand)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.ExecutaSqlComando(System.Data.SqlClient.SqlCommand)] Missing &lt;param name=&quot;Commando&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.Finalize] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.RetornaDataReader(System.String)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.RetornaDataReader(System.String)] Missing &lt;returns&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.RetornaDataReader(System.String)] Missing &lt;param name=&quot;strQuery&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.RetornaDataSet(System.String)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.RetornaDataSet(System.String)] Missing &lt;returns&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.RetornaDataSet(System.String)] Missing &lt;param name=&quot;strQuery&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.RetornaDataTable(System.String)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.RetornaDataTable(System.String)] Missing &lt;returns&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.RetornaDataTable(System.String)] Missing &lt;param name=&quot;strQuery&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.RetornaDataTableCommando(System.Data.SqlClient.SqlCommand)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.RetornaDataTableCommando(System.Data.SqlClient.SqlCommand)] Missing &lt;returns&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.connect_BaseSQLServer.RetornaDataTableCommando(System.Data.SqlClient.SqlCommand)] Missing &lt;param name=&quot;commando&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Missing &lt;param name=&quot;oCompany&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Missing &lt;param name=&quot;sObjeto&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Missing &lt;param name=&quot;sCode&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Missing &lt;param name=&quot;sName&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Missing &lt;param name=&quot;sTableName&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Missing &lt;param name=&quot;TipoObjeto&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Missing &lt;param name=&quot;CanFind&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Missing &lt;param name=&quot;CanDelete&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Missing &lt;param name=&quot;CanCancel&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Missing &lt;param name=&quot;CanYearTransfer&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Missing &lt;param name=&quot;CanLog&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Missing &lt;param name=&quot;sLogTableName&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Unknown reference link target &#39;T:SAPbobsCOM.Company&#39;. [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Unknown reference link target &#39;T:SAPbobsCOM.BoUDOObjType&#39;. [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Unknown reference link target &#39;T:SAPbobsCOM.BoYesNoEnum&#39;. [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Unknown reference link target &#39;T:SAPbobsCOM.BoYesNoEnum&#39;. [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Unknown reference link target &#39;T:SAPbobsCOM.BoYesNoEnum&#39;. [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Unknown reference link target &#39;T:SAPbobsCOM.BoYesNoEnum&#39;. [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Union.Library.DiCompany.addUDO(SAPbobsCOM.Company,System.String,System.String,System.String,System.String,SAPbobsCOM.BoUDOObjType,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,SAPbobsCOM.BoYesNoEnum,System.String)] Unknown reference link target &#39;T:SAPbobsCOM.BoYesNoEnum&#39;. [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.AddUserTable(SAPbobsCOM.Company,System.String,System.String,SAPbobsCOM.BoUTBTableType)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.AddUserTable(SAPbobsCOM.Company,System.String,System.String,SAPbobsCOM.BoUTBTableType)] Missing &lt;param name=&quot;oCompany&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.AddUserTable(SAPbobsCOM.Company,System.String,System.String,SAPbobsCOM.BoUTBTableType)] Missing &lt;param name=&quot;Name&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.AddUserTable(SAPbobsCOM.Company,System.String,System.String,SAPbobsCOM.BoUTBTableType)] Missing &lt;param name=&quot;Description&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.AddUserTable(SAPbobsCOM.Company,System.String,System.String,SAPbobsCOM.BoUTBTableType)] Missing &lt;param name=&quot;Type&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Union.Library.DiCompany.AddUserTable(SAPbobsCOM.Company,System.String,System.String,SAPbobsCOM.BoUTBTableType)] Unknown reference link target &#39;T:SAPbobsCOM.Company&#39;. [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Union.Library.DiCompany.AddUserTable(SAPbobsCOM.Company,System.String,System.String,SAPbobsCOM.BoUTBTableType)] Unknown reference link target &#39;T:SAPbobsCOM.BoUTBTableType&#39;. [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.Conectar] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.Conectar] Missing &lt;returns&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Union.Library.DiCompany.Conectar] Unknown reference link target &#39;T:SAPbobsCOM.Company&#39;. [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.ConectarUsuarioEspecifico(System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Union.Library.DiCompany.ConectarUsuarioEspecifico(System.String,System.String)] Unknown reference link target &#39;T:SAPbobsCOM.Company&#39;. [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.CriaCampo(SAPbobsCOM.Company,System.String,System.String,System.String,SAPbobsCOM.BoFieldTypes,SAPbobsCOM.BoFldSubTypes,System.Int32,SAPbobsCOM.BoYesNoEnum,System.Boolean,System.String,System.Boolean,System.String[0:,0:],System.String@)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.CriaCampo(SAPbobsCOM.Company,System.String,System.String,System.String,SAPbobsCOM.BoFieldTypes,SAPbobsCOM.BoFldSubTypes,System.Int32,SAPbobsCOM.BoYesNoEnum,System.Boolean,System.String,System.Boolean,System.String[0:,0:],System.String@)] Missing &lt;param name=&quot;oCompany&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.CriaCampo(SAPbobsCOM.Company,System.String,System.String,System.String,SAPbobsCOM.BoFieldTypes,SAPbobsCOM.BoFldSubTypes,System.Int32,SAPbobsCOM.BoYesNoEnum,System.Boolean,System.String,System.Boolean,System.String[0:,0:],System.String@)] Missing &lt;param name=&quot;sTabela&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.CriaCampo(SAPbobsCOM.Company,System.String,System.String,System.String,SAPbobsCOM.BoFieldTypes,SAPbobsCOM.BoFldSubTypes,System.Int32,SAPbobsCOM.BoYesNoEnum,System.Boolean,System.String,System.Boolean,System.String[0:,0:],System.String@)] Missing &lt;param name=&quot;sCampo&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.CriaCampo(SAPbobsCOM.Company,System.String,System.String,System.String,SAPbobsCOM.BoFieldTypes,SAPbobsCOM.BoFldSubTypes,System.Int32,SAPbobsCOM.BoYesNoEnum,System.Boolean,System.String,System.Boolean,System.String[0:,0:],System.String@)] Missing &lt;param name=&quot;sDescricao&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.CriaCampo(SAPbobsCOM.Company,System.String,System.String,System.String,SAPbobsCOM.BoFieldTypes,SAPbobsCOM.BoFldSubTypes,System.Int32,SAPbobsCOM.BoYesNoEnum,System.Boolean,System.String,System.Boolean,System.String[0:,0:],System.String@)] Missing &lt;param name=&quot;Tipo&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.CriaCampo(SAPbobsCOM.Company,System.String,System.String,System.String,SAPbobsCOM.BoFieldTypes,SAPbobsCOM.BoFldSubTypes,System.Int32,SAPbobsCOM.BoYesNoEnum,System.Boolean,System.String,System.Boolean,System.String[0:,0:],System.String@)] Missing &lt;param name=&quot;SubTipo&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.CriaCampo(SAPbobsCOM.Company,System.String,System.String,System.String,SAPbobsCOM.BoFieldTypes,SAPbobsCOM.BoFldSubTypes,System.Int32,SAPbobsCOM.BoYesNoEnum,System.Boolean,System.String,System.Boolean,System.String[0:,0:],System.String@)] Missing &lt;param name=&quot;iComprimento&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.CriaCampo(SAPbobsCOM.Company,System.String,System.String,System.String,SAPbobsCOM.BoFieldTypes,SAPbobsCOM.BoFldSubTypes,System.Int32,SAPbobsCOM.BoYesNoEnum,System.Boolean,System.String,System.Boolean,System.String[0:,0:],System.String@)] Missing &lt;param name=&quot;Obrigatorio&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.CriaCampo(SAPbobsCOM.Company,System.String,System.String,System.String,SAPbobsCOM.BoFieldTypes,SAPbobsCOM.BoFldSubTypes,System.Int32,SAPbobsCOM.BoYesNoEnum,System.Boolean,System.String,System.Boolean,System.String[0:,0:],System.String@)] Missing &lt;param name=&quot;bValorPadrao&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.CriaCampo(SAPbobsCOM.Company,System.String,System.String,System.String,SAPbobsCOM.BoFieldTypes,SAPbobsCOM.BoFldSubTypes,System.Int32,SAPbobsCOM.BoYesNoEnum,System.Boolean,System.String,System.Boolean,System.String[0:,0:],System.String@)] Missing &lt;param name=&quot;sValorPadrao&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.CriaCampo(SAPbobsCOM.Company,System.String,System.String,System.String,SAPbobsCOM.BoFieldTypes,SAPbobsCOM.BoFldSubTypes,System.Int32,SAPbobsCOM.BoYesNoEnum,System.Boolean,System.String,System.Boolean,System.String[0:,0:],System.String@)] Missing &lt;param name=&quot;bValoresValidos&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.CriaCampo(SAPbobsCOM.Company,System.String,System.String,System.String,SAPbobsCOM.BoFieldTypes,SAPbobsCOM.BoFldSubTypes,System.Int32,SAPbobsCOM.BoYesNoEnum,System.Boolean,System.String,System.Boolean,System.String[0:,0:],System.String@)] Missing &lt;param name=&quot;sValoresValidos&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.CriaCampo(SAPbobsCOM.Company,System.String,System.String,System.String,SAPbobsCOM.BoFieldTypes,SAPbobsCOM.BoFldSubTypes,System.Int32,SAPbobsCOM.BoYesNoEnum,System.Boolean,System.String,System.Boolean,System.String[0:,0:],System.String@)] Missing &lt;param name=&quot;sMensagem&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Union.Library.DiCompany.CriaCampo(SAPbobsCOM.Company,System.String,System.String,System.String,SAPbobsCOM.BoFieldTypes,SAPbobsCOM.BoFldSubTypes,System.Int32,SAPbobsCOM.BoYesNoEnum,System.Boolean,System.String,System.Boolean,System.String[0:,0:],System.String@)] Unknown reference link target &#39;T:SAPbobsCOM.Company&#39;. [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Union.Library.DiCompany.CriaCampo(SAPbobsCOM.Company,System.String,System.String,System.String,SAPbobsCOM.BoFieldTypes,SAPbobsCOM.BoFldSubTypes,System.Int32,SAPbobsCOM.BoYesNoEnum,System.Boolean,System.String,System.Boolean,System.String[0:,0:],System.String@)] Unknown reference link target &#39;T:SAPbobsCOM.BoFieldTypes&#39;. [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Union.Library.DiCompany.CriaCampo(SAPbobsCOM.Company,System.String,System.String,System.String,SAPbobsCOM.BoFieldTypes,SAPbobsCOM.BoFldSubTypes,System.Int32,SAPbobsCOM.BoYesNoEnum,System.Boolean,System.String,System.Boolean,System.String[0:,0:],System.String@)] Unknown reference link target &#39;T:SAPbobsCOM.BoFldSubTypes&#39;. [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Union.Library.DiCompany.CriaCampo(SAPbobsCOM.Company,System.String,System.String,System.String,SAPbobsCOM.BoFieldTypes,SAPbobsCOM.BoFldSubTypes,System.Int32,SAPbobsCOM.BoYesNoEnum,System.Boolean,System.String,System.Boolean,System.String[0:,0:],System.String@)] Unknown reference link target &#39;T:SAPbobsCOM.BoYesNoEnum&#39;. [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.Desconectar(SAPbobsCOM.Company)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.Desconectar(SAPbobsCOM.Company)] Missing &lt;param name=&quot;oCompany&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Union.Library.DiCompany.Desconectar(SAPbobsCOM.Company)] Unknown reference link target &#39;T:SAPbobsCOM.Company&#39;. [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.VerificaConexao(SAPbobsCOM.Company)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.VerificaConexao(SAPbobsCOM.Company)] Missing &lt;returns&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.VerificaConexao(SAPbobsCOM.Company)] Missing &lt;param name=&quot;oCompany&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Union.Library.DiCompany.VerificaConexao(SAPbobsCOM.Company)] Unknown reference link target &#39;T:SAPbobsCOM.Company&#39;. [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.VerificaExistenciaCampo(SAPbobsCOM.Company,System.String,System.String)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.VerificaExistenciaCampo(SAPbobsCOM.Company,System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.VerificaExistenciaCampo(SAPbobsCOM.Company,System.String,System.String)] Missing &lt;param name=&quot;oCompany&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.VerificaExistenciaCampo(SAPbobsCOM.Company,System.String,System.String)] Missing &lt;param name=&quot;sTabela&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.DiCompany.VerificaExistenciaCampo(SAPbobsCOM.Company,System.String,System.String)] Missing &lt;param name=&quot;sCampo&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Union.Library.DiCompany.VerificaExistenciaCampo(SAPbobsCOM.Company,System.String,System.String)] Unknown reference link target &#39;T:SAPbobsCOM.Company&#39;. [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Union.Library.Lib] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.Decrypt(System.String)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.Decrypt(System.String)] Missing &lt;returns&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.Decrypt(System.String)] Missing &lt;param name=&quot;Message&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.Encrypt(System.String)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.Encrypt(System.String)] Missing &lt;returns&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.Encrypt(System.String)] Missing &lt;param name=&quot;Message&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.Serializa_Jason(System.Data.DataSet)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.Serializa_Jason(System.Data.DataSet)] Missing &lt;returns&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.Serializa_Jason(System.Data.DataSet)] Missing &lt;param name=&quot;dsInput&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.ValidaCep(System.String)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.ValidaCep(System.String)] Missing &lt;returns&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.ValidaCep(System.String)] Missing &lt;param name=&quot;cep&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.ValidaCNPJ(System.String)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.ValidaCNPJ(System.String)] Missing &lt;returns&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.ValidaCNPJ(System.String)] Missing &lt;param name=&quot;vrCNPJ&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.ValidaCPF(System.String)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.ValidaCPF(System.String)] Missing &lt;returns&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.ValidaCPF(System.String)] Missing &lt;param name=&quot;vrCPF&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.ValidaEmail(System.String)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.ValidaEmail(System.String)] Missing &lt;returns&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.Lib.ValidaEmail(System.String)] Missing &lt;param name=&quot;email&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Union.Library.XmlHelper] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.XmlHelper.ReadConnectionString(System.String)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.XmlHelper.ReadConnectionString(System.String)] Missing &lt;returns&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.XmlHelper.ReadConnectionString(System.String)] Missing &lt;param name=&quot;key&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.XmlHelper.ReadSettingAppConfig(System.String)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.XmlHelper.ReadSettingAppConfig(System.String)] Missing &lt;returns&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.XmlHelper.ReadSettingAppConfig(System.String)] Missing &lt;param name=&quot;key&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.XmlHelper.SaveAppSettings(System.String,System.String)] Missing &lt;summary&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.XmlHelper.SaveAppSettings(System.String,System.String)] Missing &lt;param name=&quot;key&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Union.Library.XmlHelper.SaveAppSettings(System.String,System.String)] Missing &lt;param name=&quot;valor&quot;/&gt; documentation [C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj]
+  Processed 49 topic(s)
+  123 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
+  ResolveReferenceLinksComponent: 1 entries added to the MSDN content ID cache.  New cache size: 17 entries
+Done Building Project &quot;C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\BuildTopics.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.35
+    Last step completed in 00:00:10,5146
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2017.12.30.2
+Copyright &#184; 2006-2017, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1046&#39;, code page &#39;1252&#39;, encoding charset &#39;Windows-1252&#39;.
+
+Processing Help 1 files in C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\Output\HtmlHelp1
+Processed 49 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\Documentation.hhk
+Saving HTML Help 1 table of contents to C:\Users\alisson.santos\Desktop\Union.Library\Documenta‡&#198;o\Help\Working\Documentation.hhc
+    Last step completed in 00:00:00,1930
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\styles\branding.css
+    Last step completed in 00:00:00,0420
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00,0020
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - Build1xHelpFile.proj]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling c:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\Documentation.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 0 seconds
+  
+  51	Topics
+  
+  526	Local links
+  
+  203	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created c:\Users\alisson.santos\Desktop\Union.Library\Documenta&#231;&#227;o\Help\Working\Output\HtmlHelp1\Documentation.chm, 112,959 bytes
+  
+  Compression decreased file by 419,693 bytes.
+  
+    Last step completed in 00:00:00,6580
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,0190
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 18/04/2018 09:19:51.  Total time: 00:00:14,5018
+
+</buildStep>
+</shfbBuild>
